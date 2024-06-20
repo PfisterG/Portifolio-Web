@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .home-img img {
+            width: 25vw;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="nome_one">Guilherme
+            <span class="nome_two">Desenvolvedor</span></a>
+        <box-icon name='menu' id="menu-icon"></box-icon>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#Educação">Educação</a>
+            <a href="#serviço">Serviço</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Olá meu nome é <span>Guilherme</span></h1>
+            <h3 class="text-animation">Sou <span></span></h3>
+            <p>Olá sou um estudante da área de tecnologia que está em desenvolvimento na área de programação, Bem-vindo ao meu Portfólio pessoal.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/guilhermepfister/"><box-icon name='linkedinsquare' type='logo' ><img class="btn-social" src="./linkedinsquare.png" alt=""></box-icon></a>
+                <a href="https://www.instagram.com/guilhermepfister/"><box-icon name='instagram' type='logo' ><img class="btn-social" src="./instagram-logo-24.png" alt=""></box-icon></a>
+                <a href="https://x.com/GuilhermeP94594"><box-icon name='twitter' type='logo' ><img class="btn-social" src="./twitter-logo-24.png" alt=""></box-icon></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Contratar</a>
+                <a href="#contact" class="btn">Contato</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image.png.jpg" alt="Imagem de Guilherme">
+        </div>
+    </section>
+
+    <section class="Educação" id="Educação">
+        <h2 class="heading">Educação</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>Escola</h3>
+                    <p>Na escola durante as aulas de informática, eu ficava maravilhado com a ideia de poder criar coisas incríveis apenas digitando algumas linhas de código. Aos 12 anos, ganhei meu primeiro computador, e foi aí que tudo mudou. Comecei a explorar tutoriais de HTML e CSS na internet e ficava impressionado ao ver minhas criações tomando forma na tela.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>Faculdade</h3>
+                    <p>Quando entrei na faculdade, minha paixão pela programação se intensificou ainda mais. Escolhi cursar Sistemas da informação, e foi uma das melhores decisões que já tomei. Logo no primeiro semestre, fiquei maravilhado com a quantidade de coisas novas que estava aprendendo algoritmos</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Curso</h3>
+                    <p>Quando entrei na faculdade para cursar Sistemas de Informação, senti que estava no caminho certo para transformar minha paixão pela programação em uma carreira sólida. O curso tem sido uma experiência incrível, proporcionando uma base sólida em várias áreas da tecnologia e da gestão</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="serviço" id="serviço">
+        <h2 class="heading">serviço</h2>
+    
+        <div class="serviço-container">
+            <div class="serviço-box">
+                <div class="serviço-info">
+                    <h4>Design</h4>
+                    <p>Tenho uma pequena experiência em design, principalmente focada em criação de layouts para websites e desenvolvimento de identidade visual básica. Aprendi a utilizar ferramentas como Adobe Photoshop e Illustrator para manipular imagens, criar ilustrações simples e desenvolver elementos gráficos para projetos web. Também tenho conhecimentos básicos em princípios de design, como uso de cores, tipografia e composição visual.</p>
+                </div>
+            </div>
+
+            <div class="serviço-box">
+                <div class="serviço-info">
+                    <h4>Frontend</h4>
+                    <p>
+                        Tenho uma pequena experiência em front-end, especialmente na criação e implementação de interfaces de usuário para websites. Tenho familiaridade com HTML, CSS e JavaScript, o que me permite desenvolver páginas web estáticas e interativas. Além disso, conheço frameworks e bibliotecas como Bootstrap e jQuery, que facilitam a construção de layouts responsivos e adicionam funcionalidades dinâmicas aos projetos. Estou sempre buscando aprender mais e aprimorar minhas habilidades nessa área em constante evolução.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="contato" id="contato">
+        <h2 class="heading">Meu <span>Contato</span></h2>
+    
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Nome Completo">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Número de Telefone">
+                    <input type="text" placeholder="Assunto">
+                </div>
+            </div>
+    
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                <input type="submit" value="Enviar mensagem" class="btn">
+            </div>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/guilhermepfister/"><box-icon name='linkedinsquare' type='logo' ><img class="btn-social" src="./linkedinsquare.png" alt=""></box-icon></a>
+            <a href="https://www.instagram.com/guilhermepfister/"><box-icon name='instagram' type='logo' ><img class="btn-social" src="./instagram-logo-24.png" alt=""></box-icon></a>
+            <a href="https://x.com/GuilhermeP94594"><box-icon name='twitter' type='logo' ><img class="btn-social" src="./twitter-logo-24.png" alt=""></box-icon></a>
+        </div>
+    
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Serviço</a></li>
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <p class="copyright">
+            @ Guilherme Desenvolvedor / All Rights reserved
+        </p>
+    </footer>
+            
+
+    <script src="script.js"></script>
+</body>
+</html>
+
